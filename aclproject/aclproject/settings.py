@@ -107,12 +107,12 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
 
     },
-    {'NAME': 'acla.validators.NumberValidator',
+    {'NAME': 'aclapp.validators.NumberValidator',
         'OPTIONS': {
             'min_digits': 3, }},
-    {'NAME': 'acla.validators.UppercaseValidator', },
-    {'NAME': 'acla.validators.LowercaseValidator', },
-    {'NAME': 'acla.validators.SymbolValidator', },
+    {'NAME': 'aclapp.validators.UppercaseValidator', },
+    {'NAME': 'aclapp.validators.LowercaseValidator', },
+    {'NAME': 'aclapp.validators.SymbolValidator', },
 
 
 ]
